@@ -1,0 +1,170 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.menu{
+	font-weight: 700;
+	color: #fff;
+	background-color: #45015d;
+	border-radius: 15px;
+	padding: 10px 20px;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.menu a{
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	color: inherit;
+}
+.menu a:hover{
+	color: #000;
+	background-color: #fff;
+}
+.menu h3{
+	padding: 10px 0;
+}
+.main h1{
+	font-weight: 400;
+	font-size: 64px;
+
+}
+.main{
+	margin: 80px 40px 0 410px;
+}
+.images img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+	transition: opacity .2s;
+}
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	color: #45015d;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+hr{
+	width: 100%;
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.member{
+	width: 30%;
+	padding: 8px;
+	display: inline-block;
+}
+.member img{
+	filter: grayscale(30%);
+	border-radius: 10px;
+	width: 100%;
+}
+.member .discription{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 2px 16px 10px;
+}
+.member .position{
+	color: grey;
+}
+.member h3{
+	margin: 20px 0;
+}
+.member .position{
+	margin-bottom: 20px;
+}
+.tarif{
+	width: 49%;
+	padding: 0 8px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.tarif ul{
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+.tarif li{
+	border-radius: 10px;
+	border-bottom: 1px solid #ddd;
+	padding: 16px 0;
+}
+.tarif .tarif-name{
+	background-color: #45015d;
+	color: #fff;
+	padding: 32px 0;
+	font-size: 24px;
+}
+.tarif .price{
+	font-weight: 400px;
+	font-size: 30px;
+}
+.tarif .period{
+	opacity: 0.7;
+}
+.tarif button{
+	background-color: #fff;
+	color: #45015d;
+	padding: 15px 20px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+}
+.tarif button:hover{
+	background-color: #45015d;
+	color: #fff
+}
+.pro .tarif-name{
+	background-color: #f44336;
+}
+.pro button{
+	background-color: #f44336;
+	color: #fff;
+}
+.contact input{
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 8px;
+	display: block;
+	width: 100%;
+	font-size: 16px;
+}
+.contact label{
+	margin-top: 15px;
+	display: inline-block;
+}
+.contact button{
+	background-color: #45015d;
+	width: 100%;
+	color: #fff;
+	border-radius: 10px;
+	padding: 12px 0;
+	margin-top: 15px;
+	cursor: pointer;
+	outline: none;
+	font-size: 16px;
+	border: none;
+}
+.contact button:hover{
+	background-color: #fff;
+	color:#45015d;
+}
+.footer{
+	height: 54px;
+}
